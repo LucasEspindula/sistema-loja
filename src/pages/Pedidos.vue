@@ -1,24 +1,26 @@
 <template>
-  <div class="home">
+  <div class="">
     <Header />
     <main>
-      <Produtos />
+      <CardPedidos />
     </main>
     <Footer />
   </div>
 </template>
+
 <script>
 import Header from "../components/Header.vue";
-import Produtos from "../components/Produtos.vue";
+import CardPedidos from "../components/CardPedidos.vue";
 import Footer from "../components/Footer.vue";
 
 export default {
-  name: "Home",
+  name: "Pedidos",
   components: {
     Header,
-    Produtos,
+    CardPedidos,
     Footer,
   },
 };
 </script>
+
 <style></style>
